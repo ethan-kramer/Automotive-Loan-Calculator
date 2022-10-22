@@ -76,7 +76,7 @@ int main()
 
 	//output all values w/ proper formatting
 	std::cout << "\n" << "\n" << "\n" << std::endl;
-	std::cout << std::fixed << std::setprecision(2) << priceLabel << price << std::endl;	//SHOULD give correct formatting
+	std::cout << std::fixed << std::setprecision(2) << priceLabel << price << std::endl;	//gives correct formatting
 	std::cout << termLabel << term << std::endl;
 	std::cout << std::fixed << std::setprecision(2) << rateLabel << annualRate << "%" << std::endl;
 	std::cout << std::fixed << std::setprecision(2) << monthlyPaymentLabel << monthlyPayment << std::endl;
